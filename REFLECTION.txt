@@ -1,0 +1,31 @@
+Joshua Wentzel's winter 2018 CS162 REFLECTIOn.txt
+
+I've just now started work on the final project.
+I plan to take most of Lab-9's code and use it for the maze system in this project.
+I need to change a few names, like explorer should become IntrepidStudent.
+
+I spent 30 minutes discovering that I had written "#define struct union"
+in my main.cpp just to see how destructive it was, but I forgot about it.
+
+Right now I'm working on upcasting maze_person derived classes to use maze_person
+functions. Stack Overflow is a great resource for this.
+
+Decided to just use a bunch of virtual functions.
+
+I think there's a circular dependency in here somewhere.
+
+discovered a "#define class union" in one of my headers.
+My friends like to meme apparently.
+
+I threw in a fun little addition: when you collect a programming skill,
+it says you discovered one of several different CS skills related to this class.
+
+I've finished! The code works and it looks and feels really good.
+
+Now fixing codestyle and adding comments everywhere.
+
+Clarifications:
+	nowhere does it say TAs cannot occupy the same space, so they can in this program.
+	There is a suprising amount of input error checking.
+	
+executable file: ./program maze.txt
